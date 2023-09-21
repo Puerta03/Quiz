@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&family=Croissant+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(25deg, #FF5353, #FA7B7B, #FA8D90, #FFA1A4)
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+#carrosselImagem{
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    margin-bottom: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questao {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+#numQuestao {
+    display: block;
+    background: #d1d40d;
+   width: 1.1rem;
+    border-radius: 50%;
+}
+
+#pergunta {
+    margin-left: 1rem;
+    color: #000000;
+}
+
+.questoes {
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.questoes ol li {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #000000;
+    text-align: center;
+}
+
+.questoes ol li:hover {
+    background: #c10842;
+    cursor: pointer;
+}
+
+.bloqueado {
+    display: none;
+}
+
+.bloqueado li:hover {
+    display: none;
+}
+
+#instrucoes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    animation: piscar .75s infinite alternate;
+    font-family: 'Creepster', cursive;
+    font-family: 'Croissant One', cursive;
+    font-size: 50px;
+
+}
+
+#aviso {
+    color: #000000;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
